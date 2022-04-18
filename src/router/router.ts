@@ -2,8 +2,8 @@
  * @Autor: GeekMzy
  * @Date: 2022-04-18 09:40:21
  * @LastEditors: GeekMzy
- * @LastEditTime: 2022-04-18 09:40:23
- * @FilePath: \vite_vue3_ts\src\router\router.ts
+ * @LastEditTime: 2022-04-18 10:16:17
+ * @FilePath: \vue3_project\src\router\router.ts
  * @Author: desktop-1llkr2o
  */
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
@@ -12,7 +12,7 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Login',
-    component: () => import('@/pages/login/Login.vue'), // 注意这里要带上 文件后缀.vue
+    component: () => import('@/views/login/Login.vue'), // 注意这里要带上 文件后缀.vue
   },
 ]
 

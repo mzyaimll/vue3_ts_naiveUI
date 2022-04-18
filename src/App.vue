@@ -1,12 +1,15 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+<!--
+ * @Autor: GeekMzy
+ * @Date: 2022-04-18 10:12:47
+ * @LastEditors: GeekMzy
+ * @LastEditTime: 2022-04-18 10:18:23
+ * @FilePath: \vue3_project\src\App.vue
+ * @Author: desktop-1llkr2o
+-->
+<script setup lang="ts"></script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <RouterView></RouterView>
 </template>
 
 <style>
